@@ -1,25 +1,103 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ma formation</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/assets/html-logo-600w-452205691.jpg">
 </head>
+
 <body>
     <section>
-        <h1>Voici ma balise H1</h1>
+        <h1>Mon titre principal</h1>
         <p>
-            La balise H1 doit être mis une seul fois par page, il indique le titre de la page le plus important.
+            La balise <code>h1</code> doit être mis une seul fois par page, il indique le titre de la page le plus important.
         </p>
-        <h2>Voici ma balise H2</h2>
-        <h3>Voici ma balise H3</h3>
-        <h1>Ma formation en tant que Développeur Intégrateur Web.</h1>
-        <h1>Ma formation en tant que Développeur Intégrateur Web.</h1>
-        <h1>Ma formation en tant que Développeur Intégrateur Web.</h1>
+        <h2>Mon titre de section en H2</h2>
+        <h3>Mon sous-titre en H3</h3>
+        <h4>Mon sous-sous-titre en H4</h4>
+        <H5>Voici ma balise H5</H5>
+        <H6>Voici ma balise H6</H6>
+
+        <p>La balise "p" sert à créer des paragraphes</p>
+
+        <p>Les listes non-ordonnées sont des listes pour lesquelles l'ordre des éléments n'a pas d'importance (par
+            exemple une liste d'emplettes). La balise utilisée pour ces listes est l'élément
+        <ul> (ul signifie *unordered list* liste non-ordonnée en anglais)
+            Les listes ordonnées sont des listes pour lesquelles l'ordre des éléments est important (par exemple une
+            recette). La balise utilisée pour ces listes est l'élément <ol> (ol signifie *ordered list* liste ordonnée
+                en anglais)</p>
+        
+        
     </section>
-    <img src="/assets/téléchargement.jpg" alt="">
-    <video src="/assets/Original vs. Constant Rate Factor 24 (ffmpeg h264).mp4"></video>
+
+    <section>
+        <h3 id="img">La balise "img src=" sert à intégrer une image <br>
+            Exemple:</h3>
+        <img src="/assets/téléchargement.jpg" alt="">
+        <h3 id="video">La balise "video src=" sert à intégrer une vidéo <br>
+            Exemple:</h3>
+        <video src="/assets/effet optique.mp4" height="250" autoplay loop muted></video>
+    </section>
+
+    <!--Les fonctionnalités du "a href"-->
+    <section id="href">
+        <h3 id="href2">Les balises "a href" permet d'intégrer des liens, numéro de téléphone et mail <br>
+            Exemple :
+        </h3>
+        <ul>
+            <li>
+                <a href="https://developer.mozilla.org/fr/docs/Learn/Getting_started_with_the_web/HTML_basics"
+                    target="_Blank">Les
+                    balises HTML</a>
+            </li>
+            <p>L'attribut ""target="_Blank"" permet d'ouvrir un onglet dans un autre onglet</p>
+            <li>
+                <a href="mailto:jordanmahaut09@gmail.com">Ecrivez-moi</a>
+            </li>
+            <li>
+                <a href="/assets/Notice de téléchargement.txt" download="Notice">Télécharger la notice de
+                    téléchargement</a>
+            </li>
+        </ul>
+    </section>
+
+    <div>
+        <table border="1" width="50%">
+            <!-- Legende du tableau -->
+            <caption><strong>Les langages web</strong></caption>
+            <!-- En-tête -->
+            <thead>
+                <tr>
+                    <th>Langages</th>
+                    <th>A quoi il sert ?</th>
+                </tr>
+            </thead>
+            <!-- Corps du tableau -->
+            <tbody>
+                <tr>
+                    <th>HTML</th>
+                    <th>L'HTML est ce qui permet à un créateur de sites Web de gérer la manière dont le contenu de ses
+                        pages Web va s'afficher sur un écran, via le navigateur.</th>
+                </tr>
+                <tr>
+                    <th>CSS</th>
+                    <th>CSS peut être utilisé pour une mise en forme élémentaire des documents — par exemple changer la
+                        couleur et la taille des titres et des liens.</th>
+                </tr>
+                <tr>
+                    <th>JavaScript</th>
+                    <th>avaScript est un langage de programmation qui permet de créer du contenu mis à jour de façon
+                        dynamique, de contrôler le contenu multimédia, d'animer des images, et tout ce à quoi on peut
+                        penser.</th>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
 </body>
+
 </html>
